@@ -60,11 +60,13 @@ Memory: limite de memória que poderá ser utilizada pela máquina virtual do WS
 Processors: limite a quantidade de núcleos virtuais do processador o WSL poderá utilizar. Caso tenha um processador como um Intel i5 9th geração ou superior, recomenda-se a limitar para 4 núcleos no máximo. Caso tenha um i7 de 9th geração ou superior, limites como até 8 núcleos podem ser utilizados sem problemas.
 
 <br>
+
 Após salvar o arquivo, no Prompt de Comando ou Powershell, execute o comando a seguir:
 
 ````
 wsl --shutdown <distro_wsl_instalada> #Ex: Ubuntu 20.04
 ````
+
 <br>
 Existem outras configurações além dos limites de memória e uso de núcleos virtuais do processador, que podem ser encontradas no link a seguir, mas as essenciais a serem definidas são uso de memória e núcleos.
 
